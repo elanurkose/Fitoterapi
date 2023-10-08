@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>anasayfa</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body style="overflow: hidden">
+    <!-- header section starts  -->
+
+    <header class="header" data-aos="fade-down">
+      <section class="flex">
+        <a href="anasayfa.html" class="logo">Lokman Hekim</a>
+
+        <nav class="navbar">
+          <a href="anasayfa.html">anasayfa</a>
+          <a href="hakkimizda.html">hakkımızda</a>
+          <a href="bitkiler.html">bitkiler</a>
+          <a href="hastaliklar.html">hastalıklar</a>
+          <a href="iletisim.html">İletişim</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </section>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <div class="container anasayfa" data-aos="zoom-out">
+      <section class="flex" data-aos="zoom-in" data-aos-delay="600">
+        <form action="" method="post">
+          <h3>reçete arayın</h3>
+          <input
+            type="text"
+            name="bitki veya hastalık"
+            required
+            maxlength="50"
+            placeholder="bitki veya hastalık girin"
+            class="box"
+          />
+          <input type="submit" value="ara" name="search" class="btn" />
+        </form>
+      </section>
+    </div>
+
+    <!-- home section ends -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

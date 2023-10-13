@@ -330,7 +330,7 @@ section {
 }
 
 .bitkiler {
-  background: url("../images/tour-bg.jpg") no-repeat rgba(0, 0, 0, 0.5);
+  background: url("../images/bitki-bg.jpg") no-repeat rgba(0, 0, 0, 0.5);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -383,7 +383,7 @@ section {
 }
 
 .hastaliklar {
-  background: url("../images/destination-bg.jpg") no-repeat rgba(0, 0, 0, 0.5);
+  background: url("../images/hastalik-bg.jpg") no-repeat rgba(0, 0, 0, 0.5);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
